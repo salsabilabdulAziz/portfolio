@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>القائمة والمحاصيل | سُكون</title>
+  <meta name="description" content="استعرض قائمة سُكون: قهوة ساخنة وباردة، ماتشا يابانية، مخبوزات، ومحاصيل محمصة للطلب عبر واتساب.">
+  <meta name="theme-color" content="#4A3525">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none">
+            <path d="M12 23h21v8a9 9 0 0 1-9 9h-3a9 9 0 0 1-9-9v-8Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+            <path d="M33 25h2.5a4.5 4.5 0 1 1 0 9H33" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M18 17c0-2.5 2.5-2.5 2.5-5M24 17c0-2.5 2.5-2.5 2.5-5M30 17c0-2.5 2.5-2.5 2.5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">سُكون</span>
+          <span class="brand-sub">محمصة ومقهى</span>
+        </span>
+      </a>
+
+      <nav class="primary-nav" aria-label="التنقل الرئيسي">
+        <a class="nav-link" href="index.html">الرئيسية</a>
+        <a class="nav-link" href="menu.html" aria-current="page">القائمة والمحاصيل</a>
+        <a class="nav-link" href="about.html">عنّا</a>
+        <a class="nav-link" href="contact.html">تواصل</a>
+      </nav>
+
+      <a class="btn btn-primary btn--small header-cta" href="https://wa.me/966551234567?text=مرحبًا سُكون، أرغب بطلب محاصيل القهوة." target="_blank" rel="noopener">اطلب محاصيلك</a>
+
+      <details class="mobile-menu">
+        <summary>
+          <span>القائمة</span>
+          <span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+        </summary>
+        <nav class="mobile-nav" aria-label="التنقل للجوال">
+          <a href="index.html">الرئيسية</a>
+          <a href="menu.html" aria-current="page">القائمة والمحاصيل</a>
+          <a href="about.html">عنّا</a>
+          <a href="contact.html">تواصل</a>
+          <a class="btn btn-primary" href="https://wa.me/966551234567?text=مرحبًا سُكون، أرغب بطلب محاصيل القهوة." target="_blank" rel="noopener">اطلب محاصيلك</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" aria-labelledby="menu-title">
+      <div class="container page-hero-grid">
+        <div>
+          <p class="eyebrow">قائمة سُكون</p>
+          <h1 id="menu-title">قهوة مختصة،<br><span class="display-accent">على مهل.</span></h1>
+          <p class="lead">من المحاصيل الموسمية إلى الماتشا المخفوقة يدويًا، كل شيء هنا يُحضّر بوقت كافٍ. اختر كوبك، أو خذ المحصول إلى البيت.</p>
+          <div class="page-hero-actions">
+            <a class="btn btn-primary" href="#harvests">محاصيل للطلب <span aria-hidden="true">←</span></a>
+            <a class="btn btn-outline" href="contact.html">موقع الفرع</a>
+          </div>
+        </div>
+
+        <aside class="spotlight-card" aria-label="محصول هذا الأسبوع">
+          <img src="assets/roaster-3.jpg" width="1400" height="2100" alt="حبوب قهوة محمصة موضوعة في وعاء خزفي فاتح" loading="eager">
+          <div class="spotlight-copy">
+            <p class="eyebrow">محمّص هذا الأسبوع</p>
+            <h2>كولومبيا · هويلا</h2>
+            <p>كراميل، تفاح أحمر، وحلاوة ناعمة. تحميص متوسط يناسب V60 والإسبريسو.</p>
+            <a class="text-link" href="https://wa.me/966551234567?text=مرحبًا سُكون، أرغب بطلب كولومبيا هويلا 250غ." target="_blank" rel="noopener">اطلب 250غ · 62 ر.س <span aria-hidden="true">←</span></a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section menu-section" aria-labelledby="drinks-title">
+      <div class="container">
+        <div class="menu-intro">
+          <div>
+            <p class="eyebrow">المشروبات والمخبوزات</p>
+            <h2 id="drinks-title">اختر مزاجك، ونحضّر الباقي.</h2>
+          </div>
+          <p>الأسعار بالريال السعودي. حليب الشوفان أو اللوز متوفر بزيادة 3 ريالات.</p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <header class="menu-card-head">
+              <span class="menu-index" aria-hidden="true">01</span>
+              <div>
+                <h3>القهوة الساخنة</h3>
+                <p>محاصيل موسمية، تُطحن لكل كوب.</p>
+              </div>
+            </header>
+            <ul class="menu-list">
+              <li>
+                <div><span class="item-name">V60</span><span class="item-desc">قهوة مقطرة، اختر محصولك المفضل</span></div>
+                <span class="price">24</span>
+              </li>
+              <li>
+                <div><span class="item-name">إسبريسو</span><span class="item-desc">جرعة مركّزة ونظيفة</span></div>
+                <span class="price">14</span>
+              </li>
+              <li>
+                <div><span class="item-name">كورتادو</span><span class="item-desc">إسبريسو مع حليب مخملي</span></div>
+                <span class="price">18</span>
+              </li>
+              <li>
+                <div><span class="item-name">فلات وايت</span><span class="item-desc">توازن بين القهوة والحليب</span></div>
+                <span class="price">22</span>
+              </li>
+              <li>
+                <div><span class="item-name">لاتيه</span><span class="item-desc">حليب دافئ وقهوة ناعمة</span></div>
+                <span class="price">22</span>
+              </li>
+              <li>
+                <div><span class="item-name">قهوة اليوم</span><span class="item-desc">تحضير يومي يتغير مع الموسم</span></div>
+                <span class="price">18</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="menu-card">
+            <header class="menu-card-head">
+              <span class="menu-index" aria-hidden="true">02</span>
+              <div>
+                <h3>القهوة الباردة</h3>
+                <p>خفيفة ومنعشة، دون أن تفقد عمقها.</p>
+              </div>
+            </header>
+            <ul class="menu-list">
+              <li>
+                <div><span class="item-name">آيس لاتيه</span><span class="item-desc">إسبريسو، حليب، وثلج</span></div>
+                <span class="price">24</span>
+              </li>
+              <li>
+                <div><span class="item-name">كولد برو</span><span class="item-desc">تنقيط بارد لمدة 16 ساعة</span></div>
+                <span class="price">26</span>
+              </li>
+              <li>
+                <div><span class="item-name">إسبريسو تونيك</span><span class="item-desc">قهوة، تونيك، وقشرة حمضيات</span></div>
+                <span class="price">25</span>
+              </li>
+              <li>
+                <div><span class="item-name">آيس كورتادو</span><span class="item-desc">جرعة قهوة مع حليب بارد</span></div>
+                <span class="price">20</span>
+              </li>
+              <li>
+                <div><span class="item-name">شيكرتو</span><span class="item-desc">إسبريسو مخفوق مع الثلج</span></div>
+                <span class="price">24</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="menu-card menu-card--matcha">
+            <header class="menu-card-head">
+              <span class="menu-index" aria-hidden="true">03</span>
+              <div>
+                <h3>الماتشا</h3>
+                <p>ماتشا احتفالية تُخفق يدويًا لكل كوب.</p>
+              </div>
+            </header>
+            <ul class="menu-list">
+              <li>
+                <div><span class="item-name">ماتشا احتفالية</span><span class="item-desc">ماء ساخن، ماتشا، ورغوة ناعمة</span></div>
+                <span class="price">28</span>
+              </li>
+              <li>
+                <div><span class="item-name">ماتشا لاتيه</span><span class="item-desc">ماتشا مع حليب دافئ</span></div>
+                <span class="price">26</span>
+              </li>
+              <li>
+                <div><span class="item-name">ماتشا فراولة</span><span class="item-desc">طبقات فراولة طازجة وماتشا</span></div>
+                <span class="price">30</span>
+              </li>
+              <li>
+                <div><span class="item-name">ماتشا آيس</span><span class="item-desc">ماتشا باردة مع حليب وثلج</span></div>
+                <span class="price">28</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="menu-card">
+            <header class="menu-card-head">
+              <span class="menu-index" aria-hidden="true">04</span>
+              <div>
+                <h3>المخبوزات</h3>
+                <p>تُخبز صباحًا، وتبقى بسيطة.</p>
+              </div>
+            </header>
+            <ul class="menu-list">
+              <li>
+                <div><span class="item-name">كرواسان زبدة</span><span class="item-desc">طبقات خفيفة وزبدة فرنسية</span></div>
+                <span class="price">16</span>
+              </li>
+              <li>
+                <div><span class="item-name">كرواسان لوز</span><span class="item-desc">حشوة لوز وحلاوة هادئة</span></div>
+                <span class="price">20</span>
+              </li>
+              <li>
+                <div><span class="item-name">كيك ليمون</span><span class="item-desc">ليمون طازج وقوام رطب</span></div>
+                <span class="price">22</span>
+              </li>
+              <li>
+                <div><span class="item-name">كوكيز شوكولاتة</span><span class="item-desc">شوكولاتة داكنة وملح خفيف</span></div>
+                <span class="price">14</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="menu-footnote">قد تتغير بعض الأصناف بحسب الموسم. أخبرنا عن أي حساسية غذائية قبل الطلب.</p>
+      </div>
+    </section>
+
+    <section class="harvests" id="harvests" aria-labelledby="harvests-title">
+      <div class="container harvest-layout">
+        <div class="harvest-intro">
+          <p class="eyebrow eyebrow--light">محاصيل سُكون</p>
+          <h2 id="harvests-title">اختر حبوبك، ونحمّصها لك.</h2>
+          <p>نختار محاصيل صغيرة الكمية، ونحمّصها أسبوعيًا. تصل إليك في كيس 250 غرامًا، كاملة أو مطحونة حسب طريقة تحضيرك.</p>
+          <figure>
+            <img src="assets/roaster-2.jpg" width="1400" height="2100" alt="حبوب قهوة محمصة وكوب إسبريسو على طاولة خشبية داكنة" loading="lazy">
+            <figcaption>دفعات صغيرة · تحميص يتغير مع الموسم</figcaption>
+          </figure>
+        </div>
+
+        <div class="harvest-grid">
+          <article class="harvest-card">
+            <div class="harvest-top">
+              <span class="origin">إثيوبيا</span>
+              <span class="roast-level">تحميص فاتح</span>
+            </div>
+            <h3>قوجي</h3>
+            <p class="notes">ياسمين · خوخ · شاي أسود</p>
+            <div class="harvest-meta">
+              <span>250 غرام</span>
+              <strong>68 ر.س</strong>
+            </div>
+            <a class="harvest-link" href="https://wa.me/966551234567?text=مرحبًا سُكون، أرغب بطلب محصول إثيوبيا قوجي 250غ." target="_blank" rel="noopener">اطلب هذا المحصول <span aria-hidden="true">←</span></a>
+          </article>
+
+          <article class="harvest-card">
+            <div class="harvest-top">
+              <span class="origin">كولومبيا</span>
+              <span class="roast-level">تحميص متوسط</span>
+            </div>
+            <h3>هويلا</h3>
+            <p class="notes">كراميل · تفاح أحمر · حلاوة ناعمة</p>
+            <div class="harvest-meta">
+              <span>250 غرام</span>
+              <strong>62 ر.س</strong>
+            </div>
+            <a class="harvest-link" href="https://wa.me/966551234567?text=مرحبًا سُكون، أرغب بطلب محصول كولومبيا هويلا 250غ." target="_blank" rel="noopener">اطلب هذا المحصول <span aria-hidden="true">←</span></a>
+          </article>
+
+          <article class="harvest-card">
+            <div class="harvest-top">
+              <span class="origin">البرازيل</span>
+              <span class="roast-level">متوسط – غامق</span>
+            </div>
+            <h3>سيرادو</h3>
+            <p class="notes">بندق · شوكولاتة حليب · قوام كريمي</p>
+            <div class="harvest-meta">
+              <span>250 غرام</span>
+              <strong>58 ر.س</strong>
+            </div>
+            <a class="harvest-link" href="https://wa.me/966551234567?text=مرحبًا سُكون، أرغب بطلب محصول البرازيل سيرادو 250غ." target="_blank" rel="noopener">اطلب هذا المحصول <span aria-hidden="true">←</span></a>
+          </article>
+
+          <article class="harvest-card">
+            <div class="harvest-top">
+              <span class="origin">كينيا</span>
+              <span class="roast-level">تحميص فاتح</span>
+            </div>
+            <h3>نيري</h3>
+            <p class="notes">كشمش أسود · برغموت · سكر بني</p>
+            <div class="harvest-meta">
+              <span>250 غرام</span>
+              <strong>72 ر.س</strong>
+            </div>
+            <a class="harvest-link" href="https://wa.me/966551234567?text=مرحبًا سُكون، أرغب بطلب محصول كينيا نيري 250غ." target="_blank" rel="noopener">اطلب هذا المحصول <span aria-hidden="true">←</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="order-steps" aria-labelledby="order-title">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-head__copy">
+            <p class="eyebrow">كيف تطلب؟</p>
+            <h2 id="order-title">ثلاث خطوات، ونحمّص لك.</h2>
+          </div>
+          <p class="section-head__aside">نرسل المحاصيل داخل الرياض، ويمكنك استلامها من الفرع.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <h3>اختر المحصول</h3>
+            <p>حدّد المحصول والكمية، وأخبرنا إن رغبت في طحنه.</p>
+          </li>
+          <li class="step">
+            <h3>أرسل رسالة واتساب</h3>
+            <p>اضغط زر الطلب، وسنؤكد التوفر وطريقة الاستلام.</p>
+          </li>
+          <li class="step">
+            <h3>نحمّص ونوصّل</h3>
+            <p>نحمّص طلبك مع الدفعة الأقرب، ونرسله في كيس محكم.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="menu-cta-title">
+      <div class="container cta-inner">
+        <div>
+          <h2 id="menu-cta-title">محتار بين المحاصيل؟</h2>
+          <p>أخبرنا كيف تحب قهوتك، ونقترح لك محصولًا يناسب طريقة تحضيرك ومزاجك.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="https://wa.me/966551234567?text=مرحبًا سُكون، أحتاج مساعدة في اختيار محصول قهوة." target="_blank" rel="noopener">اسألنا على واتساب</a>
+          <a class="btn btn-outline btn-outline--light" href="contact.html">زور الفرع</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="M12 23h21v8a9 9 0 0 1-9 9h-3a9 9 0 0 1-9-9v-8Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+              <path d="M33 25h2.5a4.5 4.5 0 1 1 0 9H33" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+              <path d="M18 17c0-2.5 2.5-2.5 2.5-5M24 17c0-2.5 2.5-2.5 2.5-5M30 17c0-2.5 2.5-2.5 2.5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">سُكون</span>
+            <span class="brand-sub">محمصة ومقهى</span>
+          </span>
+        </a>
+        <p>محمصة ومقهى مختصة في الرياض. نحمّص على مهل، ونقدّم القهوة والماتشا في مساحة تشبه الهدوء.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>استكشف</h3>
+        <a href="index.html">الرئيسية</a>
+        <a href="menu.html">القائمة والمحاصيل</a>
+        <a href="about.html">عنّا</a>
+        <a href="contact.html">تواصل</a>
+      </div>
+
+      <div class="footer-col">
+        <h3>تواصل معنا</h3>
+        <a href="tel:+966551234567" dir="ltr">+966 55 123 4567</a>
+        <a href="mailto:hello@sukoon.cafe">hello@sukoon.cafe</a>
+        <a href="https://instagram.com/sukoon.cafe" target="_blank" rel="noopener">إنستغرام · @sukoon.cafe</a>
+        <p>الرياض، حي الياسمين، شارع أنس بن مالك</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>أوقات الزيارة</h3>
+        <div class="footer-hours">
+          <div><span>السبت – الخميس</span><span>7 ص – 11 م</span></div>
+          <div><span>الجمعة</span><span>1 م – 11 م</span></div>
+        </div>
+        <p class="footer-note">نستقبلكم للعمل والقراءة والاسترخاء.</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 سُكون. جميع الحقوق محفوظة.</p>
+      <p>صُنع بهدوء في الرياض. <a href="#top">العودة للأعلى ↑</a></p>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/966551234567?text=مرحبًا سُكون، أرغب بالاستفسار عن القائمة." target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+    </svg>
+    <span>راسلنا على واتساب</span>
+  </a>
+</body>
+</html>
